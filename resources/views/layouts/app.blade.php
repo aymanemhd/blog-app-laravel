@@ -20,12 +20,18 @@
                 <a href="" class="p-3">Post</a>
             </li>
         </ul>
+        <ul class="flex items-center">
+            <li>
+                <a href="" class="p-3">Login</a>
+            </li>
+            <li>
+                <a href="" class="p-3">Register</a>
+            </li>
+            <li>
+                <a href="" class="p-3">Lougout</a>
+            </li>
+        </ul>
     </nav>
-    <style>
-        a{
-            padding: 10px;
-        }
-    </style>
     @yield('content')
 </body>
 </html>
